@@ -1,32 +1,32 @@
-# XARM: Experiments in Sarcasm Detection
+# XARM: Explainable Review Mining Approach
 
-This package contains datasets and code for various machine learning experiments on sarcasm detection, including preprocessing, oversampling/undersampling techniques, and model training using deep learning architectures.
+This repository contains datasets and code for conducting experiments on review mining with a focus on explainable AI techniques. The work explores preprocessing, sampling methods, and deep learning models for extracting insights from textual review data.
 
 ## Directory Structure
 
 ### Data Files
-- **Amazone_Dataset.csv**: Contains text data for sarcasm detection experiments.
+- **Amazone_Dataset.csv**: Contains review data for experiments.
 - **requirment_annotatted_dataset.csv**: Annotated dataset used in various models.
 
 ### Code Files
 
 #### Preprocessing and Sampling
-- **`Oversampling_and_Under_samplimpling_sarcasm_countvatrizer (2).ipynb`**: Demonstrates cleaning the text and balancing datasets with oversampling/undersampling techniques using CountVectorizer.
+- **`Oversampling_and_Under_samplimpling_sarcasm_countvatrizer (2).ipynb`**: Demonstrates cleaning text data and balancing datasets using oversampling/undersampling techniques with CountVectorizer.
 - **`Oversampling_and_Under_samplimpling_sarcasm_tfiddf_multiclassification.ipynb`**: Similar to the above but utilizes TF-IDF for text representation.
 
 #### Model Training
-- **`BIGRU Model.ipynb`**: Implements the Bidirectional GRU model for sarcasm classification.
-- **`CNN Modell.ipynb`**: Uses Convolutional Neural Networks for sarcasm detection.
+- **`BIGRU Model.ipynb`**: Implements the Bidirectional GRU model for review classification.
+- **`CNN Modell.ipynb`**: Uses Convolutional Neural Networks for review mining.
 - **`GRU Model.ipynb`**: Employs a GRU-based architecture for text classification.
-- **`LSTM, BILSTM_models.ipynb`**: Explores LSTM and BiLSTM models for sarcasm detection.
-- **`RNN_MODEL.ipynb`**: Implements the RNN model for sarcasm classification.
+- **`LSTM, BILSTM_models.ipynb`**: Explores LSTM and BiLSTM models for review classification.
+- **`RNN_MODEL.ipynb`**: Implements the RNN model for review classification.
 - **`ROC BILSTM_OVER_UNDER_SAMPLING.ipynb`**: Focuses on evaluating the BiLSTM model's performance with balanced datasets.
 
 ### Documentation Files
 - **`README.md`**: General overview of the repository.
-- **`CNN LIME.pdf`**: Analysis of CNN model using LIME.
-- **`CNN_SHAP_KAGGLE.pdf`**: SHAP analysis applied to CNN on Kaggle data.
-- **`MLP_LIME.pdf`**: MLP model analysis using LIME.
+- **`CNN LIME.pdf`**: Analysis of CNN model using LIME (Local Interpretable Model-agnostic Explanations).
+- **`CNN_SHAP_KAGGLE.pdf`**: SHAP (SHapley Additive exPlanations) analysis applied to CNN on Kaggle review data.
+- **`MLP_LIME.pdf`**: Analysis of the MLP model using LIME.
 
 ## Requirements
 - Python 3.x
